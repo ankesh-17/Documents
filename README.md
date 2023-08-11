@@ -1,4 +1,5 @@
 # kafka-starter-kit
 
-Basic kafka commands 
+Basic Kafka commands 
+
 Java (spring boot) code for consumer and producer
