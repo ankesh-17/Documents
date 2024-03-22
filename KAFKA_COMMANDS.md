@@ -21,6 +21,12 @@ cd /home/ec2-user/kafka_2.12-2.8.1/bin
 ./kafka-topics.sh --delete --bootstrap-server "<bootstrap-server-name>" --command-config "client.properties" --topic <topic-name>
 
 ## Kafka In local
+
+ex: 
+cd C:\kafka\kafka_2.13-3.6.1\bin\windows
+.\zookeeper-server-start.bat C:\kafka\kafka_2.13-3.6.1\config\zookeeper.properties
+.\kafka-server-start.bat C:\kafka\kafka_2.13-3.6.1\config\server.properties
+
 cd C:\kafka
 
 ### to run the zookeeper server
